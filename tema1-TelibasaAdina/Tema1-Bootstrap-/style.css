@@ -1,0 +1,90 @@
+body{
+	color:#94A38E;
+	background-color: #313131;
+	background-image: url("images/Body Background.png");
+	background-repeat:no-repeat;
+	background-position:top center;
+}
+
+.navbar{
+		background-color: white;
+		height: 96px;
+		width: 960px;
+		margin-left: auto;
+		margin-right: auto;
+		border-color: transparent;
+		border-top-color: #a7c353;
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+		border-top-width: 5px;
+		overflow: hidden;
+}
+.navbar-header{
+	width: 96px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.nav {
+	position: absolute;
+    bottom: 0; 
+    right: 0;
+}
+.navbar {
+    position:fixed;
+}
+
+.logo{
+	margin-top: -20;
+	float:left;
+}
+	
+.dropdown-menu{
+	
+	background-color: #a7c353;
+	font-style: italic;
+	border-color: #a7c353;
+	border-radius: 2;
+	box-shadow: none;
+}
+.navbar-right{
+	margin-left: auto;
+	margin-right:auto;
+	
+}
+
+.navbar-nav>li:active{
+	background-color: #a7c353;
+}
+ .navbar-nav li a:hover {
+    background-color: #a7c353;
+    color:white;
+}
+
+.nav.navbar-nav.navbar-right li a {
+   
+
+	border-top-color: transparent;
+	text-align: center;
+	color: #94A38E;
+	height: 91px;
+}
+hr{
+	width: 920px;
+	margin-top: auto;
+}
+.hr1{
+	border-color: #a7c353;
+}
+.menuText {
+  font-size: 13px;
+  font-family: "Georgia";
+	margin-top: 60px;
+}
+
+
+.pText{
+  font-size: 12px;
+  font-family: "Georgia";
+  text-align: bottom;
+}
